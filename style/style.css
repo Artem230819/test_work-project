@@ -320,6 +320,9 @@ h1,h2,h3,h4,h5,h6{
     background-color: #ebded2;
     padding-top: 10.3125rem;
 }
+.advantage .container{
+    background-color: #ebded2;
+}
 .advantage__wrapper{
     display: -webkit-box;
     display: -ms-flexbox;

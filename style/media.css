@@ -48,6 +48,9 @@
 }
 }
 @media (max-width: 1000px) { 
+    .header__text{
+        padding-top: 5rem;
+    }
     .tasks{
         padding-top: 6rem;
     }
@@ -97,6 +100,9 @@
  .tasks__right-box{
      width: 50%;
  }
+ .portrait{
+     padding-top: 3rem;
+ }
  .portrait__wrapper{
      -webkit-box-orient: vertical;
      -webkit-box-direction: reverse;
@@ -115,6 +121,9 @@
  .tasks__right-box{
     align-self: center;
  }
+ .tasks__list-text{
+    margin-bottom: 3.25rem;
+ }
  .portrait__img{
      width: 50%;
 
@@ -132,6 +141,13 @@
  .strategy{
      padding-bottom: 9rem;
  }
+
+ .strategy__left-box{
+    margin-top: 4.5%;
+ }
+
+
+
  .examples__header{
      -webkit-box-orient: vertical;
      -webkit-box-direction: normal;
