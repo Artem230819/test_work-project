@@ -83,9 +83,7 @@
      -webkit-box-direction: normal;
          -ms-flex-direction: column;
              flex-direction: column;
-     -webkit-box-align: center;
-         -ms-flex-align: center;
-             align-items: center;
+
  }
  .tasks__right-box{
      width: 50%;
@@ -95,9 +93,7 @@
      -webkit-box-direction: reverse;
          -ms-flex-direction: column-reverse;
              flex-direction: column-reverse;
-     -webkit-box-align: center;
-         -ms-flex-align: center;
-             align-items: center;
+    margin-left: 2vw;
  }
  .portrait__left-box{
     display: -webkit-box;
@@ -106,6 +102,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+ }
+ .tasks__right-box{
+    align-self: center;
  }
  .portrait__img{
      width: 50%;
@@ -119,6 +118,7 @@
      -webkit-box-align: center;
          -ms-flex-align: center;
              align-items: center;
+    margin-left: 2vw;
  }
  .strategy{
      padding-bottom: 9rem;
