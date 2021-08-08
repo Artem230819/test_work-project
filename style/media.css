@@ -196,6 +196,9 @@
         -ms-flex-align: center;
             align-items: center;
 }
+.portrait__list{
+    margin-top: 1.6875rem;
+}
 }
 @media (max-width: 600px) { 
     html{
