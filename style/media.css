@@ -2,6 +2,9 @@
     .strategy__left-top{
         padding-left: 2vw;
     }
+    .tasks{
+        padding-top: 12rem;
+    }
 }
 @media (max-width: 1300px) { 
     .tasks__left-box{
@@ -40,8 +43,14 @@
  html{
      font-size: 12px;
  }
+ .tasks{
+    padding-top: 10rem;
+}
 }
 @media (max-width: 1000px) { 
+    .tasks{
+        padding-top: 6rem;
+    }
     .examples__header{
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
