@@ -11,8 +11,9 @@
 /* defold */
 
 html{
-    font-size: 0.73vw;
+    font-size: 14px;
 }
+
 h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
@@ -80,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
     height: 55vw;
     background-size: 100% auto;
     position: relative;
-    top: -5rem;
+    top: -4rem;
 }
 .header__logo-wrapper{
     position: relative;
@@ -189,7 +190,7 @@ h1,h2,h3,h4,h5,h6{
     padding-left: 15.4vw;
 }
 .strategy__left-box{
-    margin-top: 13.5%;
+    margin-top: 4.5%;
     font-size: 1.6875rem;
     font-weight: 400;
     font-stretch: normal;
@@ -250,7 +251,7 @@ h1,h2,h3,h4,h5,h6{
 
 .art{
     background-color:#e5c2de;
-    padding-bottom: 11.25rem;
+    padding-bottom: 6.25rem;
  
 }
 .art__wrapper{
@@ -321,7 +322,7 @@ h1,h2,h3,h4,h5,h6{
 
 .advantage{
     background-color: #ebded2;
-    padding-top: 10.3125rem;
+    padding-top: 6.3125rem;
 }
 .advantage .container{
     background-color: #ebded2;
@@ -506,7 +507,6 @@ h1,h2,h3,h4,h5,h6{
 
 .results{
     background-color: #e5c2de;
-    padding-top: 4.375rem;
     font-family: Geometria;
     font-size: 1.6875rem;
     font-weight: normal;

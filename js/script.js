@@ -30,3 +30,7 @@ $(function () {
         ]
       });
 })
+
+// $('.font').css({
+//   'font-size' : '1vw'
+// });

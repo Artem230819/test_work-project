@@ -2,9 +2,6 @@
     .strategy__left-top{
         padding-left: 2vw;
     }
-    .tasks{
-        padding-top: 12rem;
-    }
 }
 @media (max-width: 1300px) { 
     .tasks__left-box{
@@ -24,7 +21,7 @@
 
 @media (max-width: 1300px) { 
  html{
-     font-size: 15px;
+     font-size: 14px;
  }
  .strategy__left-bot{
      background-size:contain;
@@ -43,11 +40,14 @@
  html{
      font-size: 12px;
  }
- .tasks{
-    padding-top: 10rem;
-}
 }
 @media (max-width: 1000px) { 
+    .header__img{
+        top: -3rem;
+    }
+    .header__logo-wrapper {
+        top: -5.1875rem;
+    }
     .header__text{
         padding-top: 5rem;
     }
