@@ -11,7 +11,7 @@
 /* defold */
 
 html{
-    font-size: 16px;
+    font-size: 0.73vw;
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -57,18 +57,18 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .header__text{
-    padding-top: 10rem;
+    padding-top: 3rem;
     color: #fff;
 }
 .header__title{
-    font-size: 7.125rem;
+    font-size: 6.125rem;
   font-weight: bold;
   line-height: 1.18;
   font-family: Geometria-Bold;
 
 }
 .header__subtitle{
-    font-size: 2.4063rem;
+    font-size: 2.0063rem;
     margin-top: 2.375rem;
     font-weight: bold;
     font-family: Geometria-Bold;
@@ -79,14 +79,16 @@ h1,h2,h3,h4,h5,h6{
     background-repeat: no-repeat;
     height: 55vw;
     background-size: 100% auto;
+    position: relative;
+    top: -5rem;
 }
 .header__logo-wrapper{
     position: relative;
-    top: -2.1875rem;
+    top: -9.1875rem;
     margin-bottom: -2.1875rem;
 }
 .header__logo{
-    max-width: 16.9375rem;
+    max-width: 23.9375rem;
     width: 100%;
 }
 
@@ -94,7 +96,7 @@ h1,h2,h3,h4,h5,h6{
 
 .tasks{
     background-color: #e5c2de;
-    padding-top: 13.3125rem;
+    padding-top: 4.3125rem;
 }
 .tasks__wrapper{
     max-width: 80rem;
@@ -170,7 +172,7 @@ h1,h2,h3,h4,h5,h6{
 
 .strategy{
     background-color: #e5c2de;
-    padding-bottom: 17.5rem;
+    padding-bottom: 7.5rem;
 }
 .strategy__wrapper{
     display: -webkit-box;
@@ -239,6 +241,7 @@ h1,h2,h3,h4,h5,h6{
 .strategy__img{
     max-width: 57.5rem;
     width: 100%;
+    padding-left: 3vw;
 }
 
 
@@ -375,6 +378,8 @@ h1,h2,h3,h4,h5,h6{
     max-width: 47.625rem;
     width: 100%;
     margin: 0 auto;
+    z-index: 100;
+    position: relative;
 }
 
 .slider__wrapper .slick-arrow{
@@ -406,7 +411,7 @@ h1,h2,h3,h4,h5,h6{
 .examples{
     background-color: #e5c2de;
     position: relative;
-    padding-top: 32.5rem;
+    padding-top: 26.5rem;
     z-index: 50;
     top: -18.75rem;
     margin-bottom: -18.75rem;
@@ -433,6 +438,8 @@ h1,h2,h3,h4,h5,h6{
     background-size:contain;
     background-position-x: -5vw;
     background-position-y: center;
+    position: relative;
+    z-index: 100;
 }
 .examples__header-img-wrapper{
     width: 35%;
